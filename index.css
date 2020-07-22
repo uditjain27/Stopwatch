@@ -1,0 +1,63 @@
+body{
+    background: url(images/tree.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#header{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+#laptimer{
+    font-size: 55px;
+    text-align: end;
+    margin-right: 20px;
+    color: white;
+}
+
+#watchtimer{
+    font-size: 135px;
+    text-align: center;
+    color: white;
+}
+
+#button{
+    text-align: center;
+}
+
+.control{
+    height: 10vw;
+    width: 10vw;
+    font-size: 2.5vw;
+    padding: 3vw 0;
+    border-radius: 100px;
+    background-color: #D7A04E;
+    border: none;
+    color: white;
+    cursor: pointer;;
+}
+
+#lap{
+    overflow-y: scroll;
+    max-height: 400px;
+    color: white;
+    font-size: 1.8vw;
+    width: 1300px;
+    margin: 20px auto;
+}
+
+#lapno{
+    text-align: left;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+}
+
+#lapval{
+    text-align: right;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+}
+
